@@ -20,7 +20,7 @@ Learning the C programming component is an important aspect of this activity.  E
 ### Activity 1 - The mycat tool
 The **mycat*** tool provides a similar function to the [**cat**](https://github.com/coreutils/coreutils/blob/master/src/cat.c) tool available on most Unix/Linux based systems. It will open the file specified with the '-f' option, read the contents of the file and write the data (unaltered) to *stdout*.  If no file is specified, it will read input from *stdin* and write the data (unaltered) to *stdout*. 
 
-[Lab Walkthrough - mycat](https://www.google.com/)  
+[Lab Walkthrough - mycat](https://youtu.be/fcjQP87dzxg)  
 
 
 Example usage of mycat tool
@@ -60,7 +60,7 @@ echo $?
 ### Activity 2 - The mygrep tool
 The **mygrep** tool provides a similar function to the [**grep**](https://git.savannah.gnu.org/cgit/grep.git/tree/src/grep.c) tool available on most Unix/Linux based systems. It will open the file specified with the '-f' option, read the contents of the file and write any lines that contain the search filter specified with the '-s' option to *stdout*.  If no file is specified, it will read input from *stdin* and write the matching lines to *stdout*. If no search filter is specified, the program should display the usage message to stderr and exit with a non-zero exit status.
 
-[Lab Walkthrough - mygrep](https://www.google.com/) 
+[Lab Walkthrough - mygrep](https://youtu.be/3jTkpduuRew) 
 
 Example usage of mygrep tool
 ```
@@ -102,7 +102,7 @@ The **mywc** tool provides a similar function to the [**wc**](https://github.com
 
 From the **wc** manpage: *A word is a non-zero-length sequence of characters delimited by white space.*
 
-[Lab Walkthrough - mywc](https://www.google.com/) 
+[Lab Walkthrough - mywc](https://youtu.be/ffTZzEePYTI) 
 
 Example usage of mywc tool
 ```
@@ -143,7 +143,7 @@ The **mysort** tool provides a similar function to the [**sort**](https://github
 
 NOTE: The memory usage for this tool should dynamically adjust based upon the number of lines read in the input.  Begin with sufficient capacity to store 16 lines, then use the heuristic of doubling the capacity each time the storage array fills.
 
-[Lab Walkthrough - mysort](https://www.google.com/) 
+[Lab Walkthrough - mysort](https://youtu.be/7SZWxQ9fMxo) 
 
 Example usage of mysort tool
 ```
